@@ -11,3 +11,7 @@ venv/
 .venv/
 
 /CSV
+
+/test_csv
+
+/notebooks
