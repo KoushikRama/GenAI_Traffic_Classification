@@ -15,3 +15,5 @@ venv/
 /test_csv
 
 /notebooks
+
+*csv
