@@ -218,11 +218,11 @@ window_id | start_sec | end_sec | label    | confidence
 2         | 40        | 80      | Non_GenAI| 0.87
 ```
 ---
+
 ## Key Idea
 
-The main idea of this project is that encrypted GenAI traffic still carries behavioral signals.
+The main idea of this project is that encrypted GenAI traffic still carries behavioral signals.Even without payload access, traffic patterns such as packet timing, direction changes, burst structure, idle gaps, and upload/download imbalance can help distinguish GenAI applications from regular non-GenAI traffic.
 
-Even without payload access, traffic patterns such as packet timing, direction changes, burst structure, idle gaps, and upload/download imbalance can help distinguish GenAI applications from regular non-GenAI traffic.
 ---
 
 ## Current Limitations
@@ -236,6 +236,7 @@ Even without payload access, traffic patterns such as packet timing, direction c
 ---
 
 ## Future Improvements
+
 - Add more GenAI and non-GenAI application traces
 - Improve session-level aggregation
 - Add transformer-based temporal models
@@ -247,6 +248,8 @@ Even without payload access, traffic patterns such as packet timing, direction c
 ---
 ## Author
 
-#### Koushik Rama
+**Koushik Rama**
+
 MS Computer Science, George Mason University
+
 Focus: AI/ML, Network Traffic Analysis, GenAI Systems, and Deep Learning
